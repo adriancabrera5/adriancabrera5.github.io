@@ -1,0 +1,98 @@
+/*
+  CSS grid scaffolding provided by Erin Brown.
+  http://github.com/umiami-web-design/grid-templates
+*/
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f3f1dd;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 0;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 30% 55% 15%;
+  grid-gap: 0;
+}
+
+#adrian-picture{
+  width: 225px;
+  height: 225px;
+  border: solid 1px black;
+}
+
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+header{
+  padding: 15px;
+}
+section{
+  padding: 5px 15px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #5eb306;
+}
+
+a:visited{
+  color: #a90000;
+}
+
+a:default{
+  color: #5eb306;
+}
+
+a:active{
+  color: #d06401;
+}
+
+a:hover{
+  color: #5d7d00;
+}
+
+.social-media-icon{
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+
+
+#skills-section{
+  border-left: 1px solid #e8e4b4;
+}
+
+footer a{
+  font-size: 12px;
+}
+
+footer{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
