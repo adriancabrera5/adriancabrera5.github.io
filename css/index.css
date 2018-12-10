@@ -1,0 +1,21 @@
+div.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img{
+  width: 100%;
+}
+
+.text-column{
+  padding: 50px 70px;
+  font-size: 1.5em;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.animate{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 2000ms ease;
+}

@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <title>First Web Page</title>
+    <title>Adrian Cabrera</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
 
   <body>
-    <h1>Adrian Cabrera</h1>
+    <header>
+      <nav>
+        <div class="title-wrapper nav-wrapper">
+          <a href="index.html"><h1>Adrian Cabrera</h1></a>
+        </div>
+        <div class="links-wrapper nav-wrapper">
+          <a href="resume.html">Resume</a>
+          <a href="travel.html">Travel</a>
+          <a href="hobbies.html">Hobbies</a>
+        </div>
+      </nav>
+    </header>
 
-    <p>This is my first web page!</p>
+    <div class="grid">
+      <section>
+        <img src="assets/holder.jpeg"/>
+      </section>
+      <section class="text-column">
+        <h2>
+          Computer Science Major, Avid Traveler, Boat Enthusiast.
+        </h2>
+        <p>
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+        </p>
+        <p>
+           ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        </p>
+      </section>
+    </div>
 
-    <img src="octocat.png" alt="Octocat!" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
 
   </body>
 </html>

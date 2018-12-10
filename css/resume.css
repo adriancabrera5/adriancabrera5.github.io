@@ -3,10 +3,8 @@
   http://github.com/umiami-web-design/grid-templates
 */
 
-
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   color: #222;
 }
 #wrapper {
@@ -21,7 +19,7 @@ main {
   grid-gap: 0;
 }
 
-header{
+.header{
   display: grid;
   grid-template-columns: 30% 55% 15%;
   grid-gap: 0;
@@ -38,7 +36,7 @@ h1, h2 {
   font-family: "Oswald", sans-serif;
 }
 
-h1{
+h1.resume-title{
   font-size: 40px;
 }
 
@@ -46,33 +44,11 @@ h2{
   font-size: 32px;
 }
 
-header{
+.header{
   padding: 15px;
 }
 section{
   padding: 5px 15px;
-}
-
-a{
-  text-decoration: none;
-  font-size: 18px;
-  color: #5eb306;
-}
-
-a:visited{
-  color: #a90000;
-}
-
-a:default{
-  color: #5eb306;
-}
-
-a:active{
-  color: #d06401;
-}
-
-a:hover{
-  color: #5d7d00;
 }
 
 .social-media-icon{

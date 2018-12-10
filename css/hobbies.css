@@ -1,0 +1,17 @@
+div.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+  width: 100%;
+}
+
+.text-column{
+  padding: 10px 70px;
+  font-size: 1.5em;
+}
+
+img.moved-picture{
+  margin-top: 450px;
+}
