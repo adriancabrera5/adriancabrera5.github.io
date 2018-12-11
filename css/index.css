@@ -5,6 +5,8 @@ div.grid {
 
 img{
   width: 100%;
+  opacity: 0;
+  transform: translateY(30px);
 }
 
 .text-column{
